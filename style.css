@@ -1,0 +1,90 @@
+
+
+body{
+  background-color: black;
+  color: white;
+}
+
+
+#h11{
+  text-align: center;
+  font-size: 70px;
+  color: lime;
+  text-shadow: 8px 9px 6px #186964;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
+#playbtn{
+  height: 100px;
+  width: 200px;
+  box-shadow: 5px 5px 5px #186964;
+  border-radius: 10px;
+  border-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+button:hover{
+background-color: lime;
+}
+
+
+
+
+div{
+  text-align: center;
+}
+ 
+
+
+label{
+  font-size: 40px;
+  text-align: center;
+  display: inline-block;
+  margin-left: -220px;
+} 
+ 
+
+
+#input1{
+  height: 50px;
+  width: 70px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #186964;
+  background-color: silver;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+
+
+
+.btn{
+  height: 50px;
+  width: 10   0px;
+  box-shadow: 5px 5px 5px #186964;
+  border-radius: 10px;
+  border-color: white;
+  font-size: 30px;
+  text-align: center;
+}
+ 
+ 
+#h12{
+ text-align: center;
+ font-size: 40px;
+ color: cyan;
+ text-shadow: 8px 9px 6px #186964;
+}
+   
